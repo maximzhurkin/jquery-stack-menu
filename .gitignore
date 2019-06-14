@@ -1,0 +1,10 @@
+.DS_Store
+node_modules/
+bower_components/
+node_modules/
+src/js/app.js
+dist/*.html
+dist/templates/site/assets/scripts
+dist/templates/site/assets/json
+dist/templates/site/assets/styles
+dist/templates/site/assets/templates

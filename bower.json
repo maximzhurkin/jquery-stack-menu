@@ -1,0 +1,22 @@
+{
+  "name": "jquery-slide-menu",
+  "description": "jQuery slide menu plugin",
+  "main": "index.js",
+  "authors": [
+    "Max Zhurkin"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "reset-stylus": "*",
+    "reset-additional": "https://github.com/maximzhurkin/reset-additional.git"
+  }
+}

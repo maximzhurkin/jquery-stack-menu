@@ -1,0 +1,51 @@
+// Vendors
+// @import '../../bower_components/reset-stylus/src/reset-stylus.styl'
+// @import '../../bower_components/reset-additional/src/reset-additional.styl'
+
+body
+	padding-top 60px
+	padding-bottom 60px
+	font-family 'Roboto', sans-serif
+	background-color #f9f9f9
+
+.header,
+.footer
+	text-align center
+.header
+	margin-bottom 60px
+	&__heading
+		margin-top 0
+		margin-bottom 20px
+		font-weight 900
+		font-size 30px
+		line-height 1em
+	&__description
+		font-size 16px
+		font-weight 300
+	&__link
+		margin-left 10px
+		margin-right 10px
+		font-weight 700
+		color #007aff
+		text-decoration none
+		border-bottom 2px solid rgba(#007aff, .2)
+		transition border-color .25s ease-in-out
+		&:hover
+			border-color #007aff
+.menu
+	margin-left auto
+	margin-right auto
+	margin-bottom 60px
+	width 200px
+	font-weight 500
+	font-size 14px
+.footer
+	font-size 12px
+	font-weight 300
+	&__link
+		color #000
+		text-decoration none
+		border-bottom 1px solid rgba(#000, .2)
+		transition border-color .25s ease-in-out
+		&:hover
+			border-color #000

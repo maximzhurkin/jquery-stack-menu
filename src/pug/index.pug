@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+html(lang="en")
+head
+	meta(charset="UTF-8")
+	title Example
+	link(href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap', rel='stylesheet')
+	link(href='./example.min.css', rel='stylesheet')
+	link(href='./jquery-stack-menu.min.css', rel='stylesheet')
+	script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js')
+	script(src='./jquery-stack-menu.min.js')
+	script(src='./example.min.js')
+body
+	header.header
+		h1.header__heading jQuery Stack Menu
+		p.header__description The plugin make simply navigation menu from unordered list
+		.header__links
+			a.header__link(href='https://github.com/maximzhurkin/jquery-stack-menu/archive/master.zip') Download
+			a.header__link(href='https://github.com/maximzhurkin/jquery-stack-menu') Docs
+	.menu
+		nav#stack-menu
+			ul
+				li
+					a(href='#') Fugiat
+					ul
+						li
+							a(href='#') Perferendis
+						li
+							a(href='#') Recusandae
+							ul
+								li
+									a(href='#') Vel
+								li
+									a(href='#') Cumque
+								li
+									a(href='#') Facere
+								li
+									a(href='#') Enim
+								li
+									a(href='#') Nihil
+								ul
+									li
+										a(href='#') Quidem
+									li
+										a(href='#') Temporibus
+									li
+										a(href='#') Fugit
+									li
+										a(href='#') Dolore
+						li
+							a(href='#') Vitae
+						li
+							a(href='#') Ipsum
+				li
+					a(href='#') Lorem
+					ul
+						li
+							a(href='#') Similique
+						li
+							a(href='#') Distinctio
+						li
+							a(href='#') Porro
+						li
+							a(href='#') Illum
+				li
+					a(href='#') Perspiciatis
+				li
+					a(href='#') Doloremque
+					ul
+						li
+							a(href='#') Quod
+						li
+							a(href='#') Provident
+						li
+							a(href='#') Cumque
+	footer.footer
+		p
+			| © 2019&nbsp;
+			a.footer__link(href='http://maxzhurkin.name') Max Zhurkin
+			| . Mit license.
