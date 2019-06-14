@@ -2,7 +2,7 @@
 
 The plugin make simply navigation menu from unordered list
 
-![demo](./demo.gif)
+![demo](../../dist/demo.gif)
 
 [DEMO](https://maximzhurkin.github.io/jquery-stack-menu/)
 
