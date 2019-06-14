@@ -2,13 +2,15 @@
 
 The plugin make simply navigation menu from unordered list
 
+![demo](./demo.gif)
+
 [DEMO](https://maximzhurkin.github.io/jquery-stack-menu/)
 
 ## Getting Started
 ### 1. Include [jQuery](https://jquery.com/) and stackMenu
 ```html
 <head>
-	<link href="jquery-stack-menu.min.css" rel="stylesheet">
+  <link href="jquery-stack-menu.min.css" rel="stylesheet">
   <script src="jquery.min.js"></script>
   <script src="jquery-stack-menu.min.js"></script>
 </head>
