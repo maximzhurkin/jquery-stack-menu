@@ -14,7 +14,7 @@ var gulp = require('gulp'),
 gulp.task('serve', function() {
 	browserSync.init({
 		server: {
-			baseDir: "./"
+			baseDir: "./docs"
 		},
 		notify: false
 	});
@@ -28,7 +28,7 @@ gulp.task('html', function() {
 		}))
 		.pipe(htmlhint('./.htmlhintrc'))
 		.pipe(htmlhint.reporter())
-		.pipe(gulp.dest('./'))
+		.pipe(gulp.dest('./docs/'))
 });
 
 gulp.task('html-refresh', ['html'], function () {
