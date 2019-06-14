@@ -46,6 +46,7 @@ gulp.task('js', function() {
 		}))
 		.pipe(rename({ extname: '.min.js' }))
 		.pipe(gulp.dest('./dist/'))
+		.pipe(gulp.dest('./docs/'))
 		.pipe(browserSync.stream({ match: '**/*.js' }));
 });
 
@@ -58,6 +59,7 @@ gulp.task('css', function() {
 		.pipe(csso())
 		.pipe(rename({ extname: '.min.css' }))
 		.pipe(gulp.dest('./dist/'))
+		.pipe(gulp.dest('./docs/'))
 		.pipe(browserSync.stream({ match: '**/*.css' }));
 });
 
