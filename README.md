@@ -4,7 +4,7 @@ The plugin make simply navigation menu from unordered list
 
 ![](demo.gif)
 
-[DEMO](https://maximzhurkin.github.io/jquery-stack-menu/)
+[VIEW DEMO](https://maximzhurkin.github.io/jquery-stack-menu/)
 
 ## Getting Started
 ### 1. Include [jQuery](https://jquery.com/) and stackMenu
